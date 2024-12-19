@@ -1,0 +1,26 @@
+{
+  "name": "service3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.3",
+    "msnodesqlv8": "^2.4.6",
+    "mssql": "^8.0.2",
+    "socket.io": "^4.8.0",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
